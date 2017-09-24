@@ -1,0 +1,80 @@
+#include "header.h"
+
+int main()
+{
+  cout << "Brian Clinkenbeard | CS1B | TTh 2:30 PM | Assignment 11" << endl;
+
+  /* get account type */
+  int type = menu();
+  /* get name */
+  string accName;
+  cout << "Enter your name: ";
+  cin.ignore();
+  getline(cin, accName);
+  /* arbitrary account number */
+  int accNum = 123456;
+  /* maturity length for CODs */
+  int maturity;
+  while (type == 6) {
+    cout << "Enter the length of maturity: ";
+    cin >> maturity;
+    if (maturity > 0) {
+      break;
+    } else {
+      cin.clear();
+      cin.ignore(256, '\n');
+      cout << "Invalid length." << endl;
+    }
+  };
+
+  switch (type) {
+  case 1:
+    {
+      serviceChargeChecking account(accName, accNum);
+      break;
+    }
+  case 2:
+    {
+      noServiceChargeChecking account(accName, accNum);
+      break;
+    }
+  case 3:
+    {
+      highInterestChecking account(accName, accNum);
+      break;
+    }
+  case 4:
+    {
+      savingsAccount account(accName, accNum);
+      break;
+    }
+  case 5:
+    {
+      highInterestSavings account(accName, accNum);
+      break;
+    }
+  case 6:
+    {
+      certificateOfDeposit account(accName, accNum, maturity);
+    }
+  };
+  cout << "min: " << account.getMinimum() << endl;
+
+  /* get initial balance that exceeds minimum */
+  while(true) {
+    double initial;
+
+    cout << "Enter the initial deposit: ";
+    cin >> initial;
+    if (initial >= account.getMinimum()) {
+      account.deposit(initial);
+      break;
+    } else {
+      cin.clear();
+      cin.ignore(256, '\n');
+      cout << "Deposit does not exceed minimum balance." << endl;
+    }
+  };
+
+  return 0;
+}

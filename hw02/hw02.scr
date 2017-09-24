@@ -1,0 +1,30 @@
+Script started on Thu 08 Sep 2016 02:17:03 AM PDT
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[m[J [01;31mSchool/cs1b/hw02 [34m»[00m [K[?2004hddate[?2004l
+Thu Sep  8 02:17:06 PDT 2016
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[m[J [01;31mSchool/cs1b/hw02 [34m»[00m [K[?2004hlls -l[?2004l
+total 8.0K
+-rw-r--r-- 1 brian users 578 Sep  8 02:15 hw02.cpp
+-rw-r--r-- 1 brian users 154 Sep  8 01:44 hw02.h
+-rw-r--r-- 1 brian users   0 Sep  8 02:17 hw02.scr
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[m[J [01;31mSchool/cs1b/hw02 [34m»[00m [K[?2004hgg++ hw02.cpp[1m [0m[0m -o hw02. [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[m[J [01;31mSchool/cs1b/hw02 [34m»[00m [K[?2004hlls -l[?2004l
+total 20K
+-rwxr-xr-x 1 brian users 9.0K Sep  8 02:17 [0m[01;32mhw02[0m*
+-rw-r--r-- 1 brian users  578 Sep  8 02:15 hw02.cpp
+-rw-r--r-- 1 brian users  154 Sep  8 01:44 hw02.h
+-rw-r--r-- 1 brian users    0 Sep  8 02:17 hw02.scr
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[m[J [01;31mSchool/cs1b/hw02 [34m»[00m [K[?2004h//./  ../hw02[1m [0m[0m [?2004l
+Brian Clinkenbeard | CS1B TTh 2:30-5:50 PM
+Enter the mass of the first body in kilograms: 15
+Enter the mass of the second body in kilograms: 5
+Enter the distance between the bodies in meters: 0.1
+The force between the bodies is 5.0025e-07 N
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[m[J [01;31mSchool/cs1b/hw02 [34m»[00m [K[?2004h../hw02[1m [0m[0m [?2004l
+Brian Clinkenbeard | CS1B TTh 2:30-5:50 PM
+Enter the mass of the first body in kilograms: 07  80
+Enter the mass of the second body in kilograms: 5.97e24
+Enter the distance between the bodies in meters: 6.36 71e6
+The force between the bodies is 784.829 N
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[m[J [01;31mSchool/cs1b/hw02 [34m»[00m [K[?2004heexit[?2004l
+
+Script done on Thu 08 Sep 2016 02:18:30 AM PDT

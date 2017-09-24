@@ -1,0 +1,5 @@
+1. Information hiding is a process of using other interfaces to interact with data that usually denies direct access to data to encourage the use of it's designed interfaces.
+2. Software abstraction is the abstraction of real objects or more complex ideas into more simplified interactions/interfaces.
+3. The keyword static allocates memory in the data segment instead of the stack or heap.
+4. Software stacks are a method of organizing items using FILO. The first item in a stack will be the last to be acted upon.
+5. Software queues are a method of organizing items using FIFO. The first item in the queue will be the first to be acted upon.

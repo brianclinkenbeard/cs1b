@@ -1,0 +1,45 @@
+Brian Clinkenbeard | TTh 2:30 PM
+OOP Notes
+
+- OOP is a way of prioritizing data over action
+
+static languages:
+	- C++
+	- C#
+	- Java
+dynamic languages:
+	- Javascript
+	- Python
+	- Ruby
+
+- classes are definitions of data types
+	- defined by it's members as fields
+- three main aspects: encapsulation, inheritance, polymorphism
+
+encapsulation
+	- public and private members
+	- data should be read by methods
+
+inheritance:
+	- most languages have automatic inheritance
+	- objects can implement interfaces
+	- interfaces are set of shared methods
+	- abstract clsases are objects that cannot be instantiated
+	- children inherent from parent classes
+	- inherit in a "is a" vs "has a" manner
+	- no circular inheritance
+	- overriding is redefining an inherited method
+
+
+polymorphism:
+	- method calls are naturaly polymorphic
+	- lisa.foo(), jack.foo()
+	- which method foo we call on depends on the type
+
+- class.field is really just a global variable
+- class.method() is really just a function
+
+constructors:
+	- set up an instance at its creation
+	- method of the name of the class is ran on instantiation
+	- usually simply gives values to fields

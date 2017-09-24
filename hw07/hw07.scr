@@ -1,0 +1,611 @@
+Script started on Fri 30 Dec 2016 10:23:32 PM PST
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw07 [34m»[00m [K[?2004hddate[?2004l
+Fri Dec 30 22:23:34 PST 2016
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw07 [34m»[00m [K[?2004hlls -l[?2004l
+total 44K
+-rw-r--r-- 1 brian users  130 Oct 17 20:51 header.h
+-rw-r--r-- 1 brian users    0 Dec 30 22:23 hw07.scr
+-rw-r--r-- 1 brian users  434 Dec 30 22:23 Makefile
+-rw-r--r-- 1 brian users  463 Dec 30 20:59 s14.cpp
+-rw-r--r-- 1 brian users  426 Dec 30 21:48 s15.cpp
+-rw-r--r-- 1 brian users  462 Dec 30 21:53 s16.cpp
+-rw-r--r-- 1 brian users  530 Dec 30 21:58 s17.cpp
+-rw-r--r-- 1 brian users  636 Dec 30 22:20 s18.cpp
+-rw-r--r-- 1 brian users  676 Dec 30 22:22 s19.cpp
+-rw-r--r-- 1 brian users  676 Dec 30 22:23 s20.cpp
+-rw-r--r-- 1 brian users  518 Dec 30 22:11 s22.cpp
+drwxr-xr-x 2 brian users 4.0K Dec 30 22:22 [0m[01;34mtest[0m
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw07 [34m»[00m [K[?2004hmmake[?2004l
+g++ -Wall s14.cpp -o s14
+g++ -Wall s15.cpp -o s15
+g++ -Wall s16.cpp -o s16
+g++ -Wall s17.cpp -o s17
+g++ -Wall s18.cpp -o s18
+g++ -Wall s19.cpp -o s19
+g++ -Wall s20.cpp -o s20
+g++ -Wall s22.cpp -o s22
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw07 [34m»[00m [K[?2004hlls -l[?2004l
+total 152K
+-rw-r--r-- 1 brian users  130 Oct 17 20:51 header.h
+-rw-r--r-- 1 brian users    0 Dec 30 22:23 hw07.scr
+-rw-r--r-- 1 brian users  434 Dec 30 22:23 Makefile
+-rwxr-xr-x 1 brian users 9.0K Dec 30 22:23 [0m[01;32ms14[0m
+-rw-r--r-- 1 brian users  463 Dec 30 20:59 s14.cpp
+-rwxr-xr-x 1 brian users 9.0K Dec 30 22:23 [01;32ms15[0m
+-rw-r--r-- 1 brian users  426 Dec 30 21:48 s15.cpp
+-rwxr-xr-x 1 brian users 9.1K Dec 30 22:23 [01;32ms16[0m
+-rw-r--r-- 1 brian users  462 Dec 30 21:53 s16.cpp
+-rwxr-xr-x 1 brian users 9.0K Dec 30 22:23 [01;32ms17[0m
+-rw-r--r-- 1 brian users  530 Dec 30 21:58 s17.cpp
+-rwxr-xr-x 1 brian users  14K Dec 30 22:23 [01;32ms18[0m
+-rw-r--r-- 1 brian users  636 Dec 30 22:20 s18.cpp
+-rwxr-xr-x 1 brian users  14K Dec 30 22:23 [01;32ms19[0m
+-rw-r--r-- 1 brian users  676 Dec 30 22:22 s19.cpp
+-rwxr-xr-x 1 brian users  14K Dec 30 22:23 [01;32ms20[0m
+-rw-r--r-- 1 brian users  676 Dec 30 22:23 s20.cpp
+-rwxr-xr-x 1 brian users 9.1K Dec 30 22:23 [01;32ms22[0m
+-rw-r--r-- 1 brian users  518 Dec 30 22:11 s22.cpp
+drwxr-xr-x 2 brian users 4.0K Dec 30 22:22 [01;34mtest[0m
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw07 [34m»[00m [K[?2004hvvalgrind ./s14[?2004l
+==19193== Memcheck, a memory error detector
+==19193== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==19193== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
+==19193== Command: ./s14
+==19193== 
+Address of index 0: 0xfff000880
+Value of index 0: 0
+Address of index 1: 0xfff000884
+Value of index 1: 2
+Address of index 2: 0xfff000888
+Value of index 2: 4
+Address of index 3: 0xfff00088c
+Value of index 3: 6
+Address of index 4: 0xfff000890
+Value of index 4: 8
+Sum: 20
+==19193== 
+==19193== HEAP SUMMARY:
+==19193==     in use at exit: 0 bytes in 0 blocks
+==19193==   total heap usage: 2 allocs, 2 frees, 73,728 bytes allocated
+==19193== 
+==19193== All heap blocks were freed -- no leaks are possible
+==19193== 
+==19193== For counts of detected and suppressed errors, rerun with: -v
+==19193== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw07 [34m»[00m [K[?2004hvalgrind ./s14 5[?2004l
+==19245== Memcheck, a memory error detector
+==19245== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==19245== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
+==19245== Command: ./s15
+==19245== 
+Address of index 0: 0xfff000880
+Value of index 0: 0
+Address of index 1: 0xfff000884
+Value of index 1: 1
+Address of index 2: 0xfff000888
+Value of index 2: 4
+Address of index 3: 0xfff00088c
+Value of index 3: 9
+Address of index 4: 0xfff000890
+Value of index 4: 16
+Sum: 30
+==19245== 
+==19245== HEAP SUMMARY:
+==19245==     in use at exit: 0 bytes in 0 blocks
+==19245==   total heap usage: 2 allocs, 2 frees, 73,728 bytes allocated
+==19245== 
+==19245== All heap blocks were freed -- no leaks are possible
+==19245== 
+==19245== For counts of detected and suppressed errors, rerun with: -v
+==19245== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw07 [34m»[00m [K[?2004hvalgrind ./s15 6[?2004l
+==19300== Memcheck, a memory error detector
+==19300== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==19300== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
+==19300== Command: ./s16
+==19300== 
+Address of index 0: 0x5a89c80
+Value of index 0: 0
+Address of index 1: 0x5a89c84
+Value of index 1: 2
+Address of index 2: 0x5a89c88
+Value of index 2: 4
+Address of index 3: 0x5a89c8c
+Value of index 3: 6
+Address of index 4: 0x5a89c90
+Value of index 4: 8
+Sum: 20
+==19300== 
+==19300== HEAP SUMMARY:
+==19300==     in use at exit: 0 bytes in 0 blocks
+==19300==   total heap usage: 3 allocs, 3 frees, 73,748 bytes allocated
+==19300== 
+==19300== All heap blocks were freed -- no leaks are possible
+==19300== 
+==19300== For counts of detected and suppressed errors, rerun with: -v
+==19300== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw07 [34m»[00m [K[?2004hvalgrind ./s16 7[?2004l
+==19352== Memcheck, a memory error detector
+==19352== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==19352== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
+==19352== Command: ./s17
+==19352== 
+Address of index 0, 0: 0xfff0007e0
+Value of index 0, 0: 0
+Address of index 0, 1: 0xfff0007e4
+Value of index 0, 1: 1
+Address of index 0, 2: 0xfff0007e8
+Value of index 0, 2: 2
+Address of index 0, 3: 0xfff0007ec
+Value of index 0, 3: 3
+Address of index 0, 4: 0xfff0007f0
+Value of index 0, 4: 4
+Address of index 0, 5: 0xfff0007f4
+Value of index 0, 5: 5
+Address of index 0, 6: 0xfff0007f8
+Value of index 0, 6: 6
+Address of index 0, 7: 0xfff0007fc
+Value of index 0, 7: 7
+Address of index 1, 0: 0xfff000800
+Value of index 1, 0: 1
+Address of index 1, 1: 0xfff000804
+Value of index 1, 1: 2
+Address of index 1, 2: 0xfff000808
+Value of index 1, 2: 3
+Address of index 1, 3: 0xfff00080c
+Value of index 1, 3: 4
+Address of index 1, 4: 0xfff000810
+Value of index 1, 4: 5
+Address of index 1, 5: 0xfff000814
+Value of index 1, 5: 6
+Address of index 1, 6: 0xfff000818
+Value of index 1, 6: 7
+Address of index 1, 7: 0xfff00081c
+Value of index 1, 7: 8
+Address of index 2, 0: 0xfff000820
+Value of index 2, 0: 2
+Address of index 2, 1: 0xfff000824
+Value of index 2, 1: 3
+Address of index 2, 2: 0xfff000828
+Value of index 2, 2: 4
+Address of index 2, 3: 0xfff00082c
+Value of index 2, 3: 5
+Address of index 2, 4: 0xfff000830
+Value of index 2, 4: 6
+Address of index 2, 5: 0xfff000834
+Value of index 2, 5: 7
+Address of index 2, 6: 0xfff000838
+Value of index 2, 6: 8
+Address of index 2, 7: 0xfff00083c
+Value of index 2, 7: 9
+Address of index 3, 0: 0xfff000840
+Value of index 3, 0: 3
+Address of index 3, 1: 0xfff000844
+Value of index 3, 1: 4
+Address of index 3, 2: 0xfff000848
+Value of index 3, 2: 5
+Address of index 3, 3: 0xfff00084c
+Value of index 3, 3: 6
+Address of index 3, 4: 0xfff000850
+Value of index 3, 4: 7
+Address of index 3, 5: 0xfff000854
+Value of index 3, 5: 8
+Address of index 3, 6: 0xfff000858
+Value of index 3, 6: 9
+Address of index 3, 7: 0xfff00085c
+Value of index 3, 7: 10
+Address of index 4, 0: 0xfff000860
+Value of index 4, 0: 4
+Address of index 4, 1: 0xfff000864
+Value of index 4, 1: 5
+Address of index 4, 2: 0xfff000868
+Value of index 4, 2: 6
+Address of index 4, 3: 0xfff00086c
+Value of index 4, 3: 7
+Address of index 4, 4: 0xfff000870
+Value of index 4, 4: 8
+Address of index 4, 5: 0xfff000874
+Value of index 4, 5: 9
+Address of index 4, 6: 0xfff000878
+Value of index 4, 6: 10
+Address of index 4, 7: 0xfff00087c
+Value of index 4, 7: 11
+Sum: 220
+==19352== 
+==19352== HEAP SUMMARY:
+==19352==     in use at exit: 0 bytes in 0 blocks
+==19352==   total heap usage: 2 allocs, 2 frees, 73,728 bytes allocated
+==19352== 
+==19352== All heap blocks were freed -- no leaks are possible
+==19352== 
+==19352== For counts of detected and suppressed errors, rerun with: -v
+==19352== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw07 [34m»[00m [K[?2004hvalgrind ./s17 8[?2004l
+==19421== Memcheck, a memory error detector
+==19421== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==19421== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
+==19421== Command: ./s18
+==19421== 
+Address of index 0, 0: 0x5a89c80
+Value of index 0, 0: 0
+Address of index 0, 1: 0x5a89c84
+Value of index 0, 1: 1
+Address of index 0, 2: 0x5a89c88
+Value of index 0, 2: 2
+Address of index 0, 3: 0x5a89c8c
+Value of index 0, 3: 3
+Address of index 0, 4: 0x5a89c90
+Value of index 0, 4: 4
+Address of index 0, 5: 0x5a89c94
+Value of index 0, 5: 5
+Address of index 0, 6: 0x5a89c98
+Value of index 0, 6: 6
+Address of index 0, 7: 0x5a89c9c
+Value of index 0, 7: 7
+Address of index 1, 0: 0x5a89ce0
+Value of index 1, 0: 1
+Address of index 1, 1: 0x5a89ce4
+Value of index 1, 1: 2
+Address of index 1, 2: 0x5a89ce8
+Value of index 1, 2: 3
+Address of index 1, 3: 0x5a89cec
+Value of index 1, 3: 4
+Address of index 1, 4: 0x5a89cf0
+Value of index 1, 4: 5
+Address of index 1, 5: 0x5a89cf4
+Value of index 1, 5: 6
+Address of index 1, 6: 0x5a89cf8
+Value of index 1, 6: 7
+Address of index 1, 7: 0x5a89cfc
+Value of index 1, 7: 8
+Address of index 2, 0: 0x5a89d40
+Value of index 2, 0: 2
+Address of index 2, 1: 0x5a89d44
+Value of index 2, 1: 3
+Address of index 2, 2: 0x5a89d48
+Value of index 2, 2: 4
+Address of index 2, 3: 0x5a89d4c
+Value of index 2, 3: 5
+Address of index 2, 4: 0x5a89d50
+Value of index 2, 4: 6
+Address of index 2, 5: 0x5a89d54
+Value of index 2, 5: 7
+Address of index 2, 6: 0x5a89d58
+Value of index 2, 6: 8
+Address of index 2, 7: 0x5a89d5c
+Value of index 2, 7: 9
+Address of index 3, 0: 0x5a89da0
+Value of index 3, 0: 3
+Address of index 3, 1: 0x5a89da4
+Value of index 3, 1: 4
+Address of index 3, 2: 0x5a89da8
+Value of index 3, 2: 5
+Address of index 3, 3: 0x5a89dac
+Value of index 3, 3: 6
+Address of index 3, 4: 0x5a89db0
+Value of index 3, 4: 7
+Address of index 3, 5: 0x5a89db4
+Value of index 3, 5: 8
+Address of index 3, 6: 0x5a89db8
+Value of index 3, 6: 9
+Address of index 3, 7: 0x5a89dbc
+Value of index 3, 7: 10
+Address of index 4, 0: 0x5a89e00
+Value of index 4, 0: 4
+Address of index 4, 1: 0x5a89e04
+Value of index 4, 1: 5
+Address of index 4, 2: 0x5a89e08
+Value of index 4, 2: 6
+Address of index 4, 3: 0x5a89e0c
+Value of index 4, 3: 7
+Address of index 4, 4: 0x5a89e10
+Value of index 4, 4: 8
+Address of index 4, 5: 0x5a89e14
+Value of index 4, 5: 9
+Address of index 4, 6: 0x5a89e18
+Value of index 4, 6: 10
+Address of index 4, 7: 0x5a89e1c
+Value of index 4, 7: 11
+Sum: 220
+==19421== 
+==19421== HEAP SUMMARY:
+==19421==     in use at exit: 0 bytes in 0 blocks
+==19421==   total heap usage: 7 allocs, 7 frees, 73,888 bytes allocated
+==19421== 
+==19421== All heap blocks were freed -- no leaks are possible
+==19421== 
+==19421== For counts of detected and suppressed errors, rerun with: -v
+==19421== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw07 [34m»[00m [K[?2004hvalgrind ./s18 9[?2004l
+==19477== Memcheck, a memory error detector
+==19477== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==19477== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
+==19477== Command: ./s19
+==19477== 
+Address of index 0, 0: 0x5a89cf0
+Value of index 0, 0: 0
+Address of index 0, 1: 0x5a89cf4
+Value of index 0, 1: 1
+Address of index 0, 2: 0x5a89cf8
+Value of index 0, 2: 2
+Address of index 0, 3: 0x5a89cfc
+Value of index 0, 3: 3
+Address of index 0, 4: 0x5a89d00
+Value of index 0, 4: 4
+Address of index 0, 5: 0x5a89d04
+Value of index 0, 5: 5
+Address of index 0, 6: 0x5a89d08
+Value of index 0, 6: 6
+Address of index 0, 7: 0x5a89d0c
+Value of index 0, 7: 7
+Address of index 1, 0: 0x5a89d50
+Value of index 1, 0: 1
+Address of index 1, 1: 0x5a89d54
+Value of index 1, 1: 2
+Address of index 1, 2: 0x5a89d58
+Value of index 1, 2: 3
+Address of index 1, 3: 0x5a89d5c
+Value of index 1, 3: 4
+Address of index 1, 4: 0x5a89d60
+Value of index 1, 4: 5
+Address of index 1, 5: 0x5a89d64
+Value of index 1, 5: 6
+Address of index 1, 6: 0x5a89d68
+Value of index 1, 6: 7
+Address of index 1, 7: 0x5a89d6c
+Value of index 1, 7: 8
+Address of index 2, 0: 0x5a89db0
+Value of index 2, 0: 2
+Address of index 2, 1: 0x5a89db4
+Value of index 2, 1: 3
+Address of index 2, 2: 0x5a89db8
+Value of index 2, 2: 4
+Address of index 2, 3: 0x5a89dbc
+Value of index 2, 3: 5
+Address of index 2, 4: 0x5a89dc0
+Value of index 2, 4: 6
+Address of index 2, 5: 0x5a89dc4
+Value of index 2, 5: 7
+Address of index 2, 6: 0x5a89dc8
+Value of index 2, 6: 8
+Address of index 2, 7: 0x5a89dcc
+Value of index 2, 7: 9
+Address of index 3, 0: 0x5a89e10
+Value of index 3, 0: 3
+Address of index 3, 1: 0x5a89e14
+Value of index 3, 1: 4
+Address of index 3, 2: 0x5a89e18
+Value of index 3, 2: 5
+Address of index 3, 3: 0x5a89e1c
+Value of index 3, 3: 6
+Address of index 3, 4: 0x5a89e20
+Value of index 3, 4: 7
+Address of index 3, 5: 0x5a89e24
+Value of index 3, 5: 8
+Address of index 3, 6: 0x5a89e28
+Value of index 3, 6: 9
+Address of index 3, 7: 0x5a89e2c
+Value of index 3, 7: 10
+Address of index 4, 0: 0x5a89e70
+Value of index 4, 0: 4
+Address of index 4, 1: 0x5a89e74
+Value of index 4, 1: 5
+Address of index 4, 2: 0x5a89e78
+Value of index 4, 2: 6
+Address of index 4, 3: 0x5a89e7c
+Value of index 4, 3: 7
+Address of index 4, 4: 0x5a89e80
+Value of index 4, 4: 8
+Address of index 4, 5: 0x5a89e84
+Value of index 4, 5: 9
+Address of index 4, 6: 0x5a89e88
+Value of index 4, 6: 10
+Address of index 4, 7: 0x5a89e8c
+Value of index 4, 7: 11
+Sum: 220
+==19477== 
+==19477== HEAP SUMMARY:
+==19477==     in use at exit: 0 bytes in 0 blocks
+==19477==   total heap usage: 8 allocs, 8 frees, 73,928 bytes allocated
+==19477== 
+==19477== All heap blocks were freed -- no leaks are possible
+==19477== 
+==19477== For counts of detected and suppressed errors, rerun with: -v
+==19477== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw07 [34m»[00m [K[?2004hvalgrind ./s19  20[?2004l
+==19543== Memcheck, a memory error detector
+==19543== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==19543== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
+==19543== Command: ./s20
+==19543== 
+Address of index 0, 0: 0x5a89cf0
+Value of index 0, 0: 0
+Address of index 0, 1: 0x5a89cf4
+Value of index 0, 1: 1
+Address of index 0, 2: 0x5a89cf8
+Value of index 0, 2: 2
+Address of index 0, 3: 0x5a89cfc
+Value of index 0, 3: 3
+Address of index 0, 4: 0x5a89d00
+Value of index 0, 4: 4
+Address of index 0, 5: 0x5a89d04
+Value of index 0, 5: 5
+Address of index 0, 6: 0x5a89d08
+Value of index 0, 6: 6
+Address of index 0, 7: 0x5a89d0c
+Value of index 0, 7: 7
+Address of index 1, 0: 0x5a89d50
+Value of index 1, 0: 1
+Address of index 1, 1: 0x5a89d54
+Value of index 1, 1: 2
+Address of index 1, 2: 0x5a89d58
+Value of index 1, 2: 3
+Address of index 1, 3: 0x5a89d5c
+Value of index 1, 3: 4
+Address of index 1, 4: 0x5a89d60
+Value of index 1, 4: 5
+Address of index 1, 5: 0x5a89d64
+Value of index 1, 5: 6
+Address of index 1, 6: 0x5a89d68
+Value of index 1, 6: 7
+Address of index 1, 7: 0x5a89d6c
+Value of index 1, 7: 8
+Address of index 2, 0: 0x5a89db0
+Value of index 2, 0: 2
+Address of index 2, 1: 0x5a89db4
+Value of index 2, 1: 3
+Address of index 2, 2: 0x5a89db8
+Value of index 2, 2: 4
+Address of index 2, 3: 0x5a89dbc
+Value of index 2, 3: 5
+Address of index 2, 4: 0x5a89dc0
+Value of index 2, 4: 6
+Address of index 2, 5: 0x5a89dc4
+Value of index 2, 5: 7
+Address of index 2, 6: 0x5a89dc8
+Value of index 2, 6: 8
+Address of index 2, 7: 0x5a89dcc
+Value of index 2, 7: 9
+Address of index 3, 0: 0x5a89e10
+Value of index 3, 0: 3
+Address of index 3, 1: 0x5a89e14
+Value of index 3, 1: 4
+Address of index 3, 2: 0x5a89e18
+Value of index 3, 2: 5
+Address of index 3, 3: 0x5a89e1c
+Value of index 3, 3: 6
+Address of index 3, 4: 0x5a89e20
+Value of index 3, 4: 7
+Address of index 3, 5: 0x5a89e24
+Value of index 3, 5: 8
+Address of index 3, 6: 0x5a89e28
+Value of index 3, 6: 9
+Address of index 3, 7: 0x5a89e2c
+Value of index 3, 7: 10
+Address of index 4, 0: 0x5a89e70
+Value of index 4, 0: 4
+Address of index 4, 1: 0x5a89e74
+Value of index 4, 1: 5
+Address of index 4, 2: 0x5a89e78
+Value of index 4, 2: 6
+Address of index 4, 3: 0x5a89e7c
+Value of index 4, 3: 7
+Address of index 4, 4: 0x5a89e80
+Value of index 4, 4: 8
+Address of index 4, 5: 0x5a89e84
+Value of index 4, 5: 9
+Address of index 4, 6: 0x5a89e88
+Value of index 4, 6: 10
+Address of index 4, 7: 0x5a89e8c
+Value of index 4, 7: 11
+Sum: 220
+==19543== 
+==19543== HEAP SUMMARY:
+==19543==     in use at exit: 0 bytes in 0 blocks
+==19543==   total heap usage: 8 allocs, 8 frees, 73,928 bytes allocated
+==19543== 
+==19543== All heap blocks were freed -- no leaks are possible
+==19543== 
+==19543== For counts of detected and suppressed errors, rerun with: -v
+==19543== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw07 [34m»[00m [K[?2004hvalgrind ./s20 
+[J[1;32ms20[0m*     [Js20.cpp  [J[1;32ms22[0m*     [Js22.cpp[J[A[m[27m[24m[20Cvalgrind ./s2[K2
+[J[J[1;32ms22[0m*     [Js22.cpp[J[A[m[27m[24m[20Cvalgrind ./s22[K[?2004l
+[J==19663== Memcheck, a memory error detector
+==19663== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==19663== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
+==19663== Command: ./s22
+==19663== 
+Address of index 0: 0x5a89c80
+Value of index 0: 0
+Address of index 1: 0x5a89c84
+Value of index 1: 2
+Address of index 2: 0x5a89c88
+Value of index 2: 4
+Address of index 3: 0x5a89c8c
+Value of index 3: 6
+Address of index 4: 0x5a89c90
+Value of index 4: 8
+Address of index 5: 0x5a89c94
+Value of index 5: 10
+Address of index 6: 0x5a89c98
+Value of index 6: 12
+Address of index 7: 0x5a89c9c
+Value of index 7: 14
+Address of index 8: 0x5a89ca0
+Value of index 8: 16
+Address of index 9: 0x5a89ca4
+Value of index 9: 18
+Address of index 10: 0x5a89ca8
+Value of index 10: 20
+Address of index 11: 0x5a89cac
+Value of index 11: 22
+Address of index 12: 0x5a89cb0
+Value of index 12: 24
+Address of index 13: 0x5a89cb4
+Value of index 13: 26
+Address of index 14: 0x5a89cb8
+Value of index 14: 28
+Address of index 15: 0x5a89cbc
+Value of index 15: 30
+Address of index 16: 0x5a89cc0
+Value of index 16: 32
+Address of index 17: 0x5a89cc4
+Value of index 17: 34
+Address of index 18: 0x5a89cc8
+Value of index 18: 36
+Address of index 19: 0x5a89ccc
+Value of index 19: 38
+Address of index 20: 0x5a89cd0
+Value of index 20: 40
+Address of index 21: 0x5a89cd4
+Value of index 21: 42
+Address of index 22: 0x5a89cd8
+Value of index 22: 44
+Address of index 23: 0x5a89cdc
+Value of index 23: 46
+Address of index 24: 0x5a89ce0
+Value of index 24: 48
+Address of index 25: 0x5a89ce4
+Value of index 25: 50
+Address of index 26: 0x5a89ce8
+Value of index 26: 52
+Address of index 27: 0x5a89cec
+Value of index 27: 54
+Address of index 28: 0x5a89cf0
+Value of index 28: 56
+Address of index 29: 0x5a89cf4
+Value of index 29: 58
+Address of index 30: 0x5a89cf8
+Value of index 30: 60
+Address of index 31: 0x5a89cfc
+Value of index 31: 62
+Address of index 32: 0x5a89d00
+Value of index 32: 64
+Address of index 33: 0x5a89d04
+Value of index 33: 66
+Address of index 34: 0x5a89d08
+Value of index 34: 68
+Address of index 35: 0x5a89d0c
+Value of index 35: 70
+Address of index 36: 0x5a89d10
+Value of index 36: 72
+Address of index 37: 0x5a89d14
+Value of index 37: 74
+Address of index 38: 0x5a89d18
+Value of index 38: 76
+Address of index 39: 0x5a89d1c
+Value of index 39: 78
+Sum: 1560
+==19663== 
+==19663== HEAP SUMMARY:
+==19663==     in use at exit: 0 bytes in 0 blocks
+==19663==   total heap usage: 3 allocs, 3 frees, 73,888 bytes allocated
+==19663== 
+==19663== All heap blocks were freed -- no leaks are possible
+==19663== 
+==19663== For counts of detected and suppressed errors, rerun with: -v
+==19663== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw07 [34m»[00m [K[?2004heexit[?2004l
+
+Script done on Fri 30 Dec 2016 10:24:12 PM PST

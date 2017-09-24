@@ -1,0 +1,106 @@
+Script started on Thu 22 Sep 2016 04:25:41 AM PDT
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw04 [34m»[00m [K[?2004hddate[?2004l
+Thu Sep 22 04:25:44 PDT 2016
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw04 [34m»[00m [K[?2004hlls -l[?2004l
+total 40K
+-rw-r--r-- 1 brian users  182 Sep 22 03:21 hw04add.cpp
+-rw-r--r-- 1 brian users 1.5K Sep 22 04:20 hw04.cpp
+-rw-r--r-- 1 brian users  394 Sep 22 04:24 hw04det.cpp
+-rw-r--r-- 1 brian users  408 Sep 22 04:23 hw04.h
+-rw-r--r-- 1 brian users  345 Sep 22 04:13 hw04menu.cpp
+-rw-r--r-- 1 brian users  260 Sep 22 03:21 hw04mul.cpp
+-rw-r--r-- 1 brian users    0 Sep 22 04:25 hw04.scr
+-rw-r--r-- 1 brian users  182 Sep 22 03:21 hw04sub.cpp
+-rw-r--r-- 1 brian users  600 Sep 22 03:39 Makefile
+-rw-r--r-- 1 brian users   47 Sep 22 03:30 mat3x3_1.txt
+-rw-r--r-- 1 brian users   53 Sep 22 03:30 mat3x3_2.txt
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw04 [34m»[00m [K[?2004hmmake all[?2004l
+g++ -c hw04menu.cpp -o hw04menu.o
+g++ -c hw04add.cpp -o hw04add.o
+g++ -c hw04sub.cpp -o hw04sub.o
+g++ -c hw04mul.cpp -o hw04mul.o
+g++ -c hw04det.cpp -o hw04det.o
+g++ hw04.cpp -o hw04 hw04menu.o hw04add.o hw04sub.o hw04mul.o hw04det.o
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw04 [34m»[00m [K[?2004hlls -l[?2004l
+total 80K
+-rwxr-xr-x 1 brian users  20K Sep 22 04:25 [0m[01;32mhw04[0m*
+-rw-r--r-- 1 brian users  182 Sep 22 03:21 hw04add.cpp
+-rw-r--r-- 1 brian users 1.4K Sep 22 04:25 hw04add.o
+-rw-r--r-- 1 brian users 1.5K Sep 22 04:20 hw04.cpp
+-rw-r--r-- 1 brian users  394 Sep 22 04:24 hw04det.cpp
+-rw-r--r-- 1 brian users 3.1K Sep 22 04:25 hw04det.o
+-rw-r--r-- 1 brian users  408 Sep 22 04:23 hw04.h
+-rw-r--r-- 1 brian users  345 Sep 22 04:13 hw04menu.cpp
+-rw-r--r-- 1 brian users 3.6K Sep 22 04:25 hw04menu.o
+-rw-r--r-- 1 brian users  260 Sep 22 03:21 hw04mul.cpp
+-rw-r--r-- 1 brian users 1.5K Sep 22 04:25 hw04mul.o
+-rw-r--r-- 1 brian users    0 Sep 22 04:25 hw04.scr
+-rw-r--r-- 1 brian users  182 Sep 22 03:21 hw04sub.cpp
+-rw-r--r-- 1 brian users 1.4K Sep 22 04:25 hw04sub.o
+-rw-r--r-- 1 brian users  600 Sep 22 03:39 Makefile
+-rw-r--r-- 1 brian users   47 Sep 22 03:30 mat3x3_1.txt
+-rw-r--r-- 1 brian users   53 Sep 22 03:30 mat3x3_2.txt
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw04 [34m»[00m [K[?2004h../hw04[1m [m[m [?2004l
+Brian Clinkenbeard | CS1B TTh 2:30 PM
+
+Choose operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Determinant
+5. Exit
+1
+
+Sums:
+   24.38   62.86   73.15
+    2.48   85.75   -0.18
+    3.92    8.86  -26.79
+
+Choose operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Determinant
+5. Exit
+2
+
+Differences:
+  -19.52  -45.34  -67.13
+    9.30  -82.67  -15.02
+    1.76  -21.16   42.83
+
+Choose operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Determinant
+5. Exit
+3
+
+Products:
+   26.72  914.32  130.66
+  115.83  334.26  689.11
+   91.97 -243.87 -125.61
+
+Choose operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Determinant
+5. Exit
+4
+
+Determinant:
+66911168.85
+
+Choose operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Determinant
+5. Exit
+5
+
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                                                                [m[27m[24m[J [01;31mSchool/cs1b/hw04 [34m»[00m [K[?2004heexit[?2004l
+
+Script done on Thu 22 Sep 2016 04:26:30 AM PDT

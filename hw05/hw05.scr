@@ -1,0 +1,46 @@
+Script started on Tue 27 Sep 2016 05:45:49 PM PDT
+]0;cs1st@cs1buntu: ~/hw05[01;32mcs1st@cs1buntu[00m:[01;34m~/hw05[00m$ date
+Tue Sep 27 17:45:51 PDT 2016
+]0;cs1st@cs1buntu: ~/hw05[01;32mcs1st@cs1buntu[00m:[01;34m~/hw05[00m$ ls -l
+total 20
+-rw-rw-r-- 1 cs1st cs1st 267 Sep 27 17:43 header.h
+-rw-rw-r-- 1 cs1st cs1st 254 Sep 27 17:41 hw05.cpp
+-rw-rw-r-- 1 cs1st cs1st   0 Sep 27 17:45 hw05.scr
+-rw-rw-r-- 1 cs1st cs1st 322 Sep 27 17:39 Makefile
+-rw-rw-r-- 1 cs1st cs1st 389 Sep 27 17:42 prshape.cpp
+-rw-rw-r-- 1 cs1st cs1st 286 Sep 27 17:44 trshape.cpp
+]0;cs1st@cs1buntu: ~/hw05[01;32mcs1st@cs1buntu[00m:[01;34m~/hw05[00m$ make all
+g++ -c trshape.cpp -o trshape.o
+g++ -c prshape.cpp -o prshape.o
+g++ hw05.cpp -o hw05 trshape.o prshape.o
+]0;cs1st@cs1buntu: ~/hw05[01;32mcs1st@cs1buntu[00m:[01;34m~/hw05[00m$ ls -l
+total 44
+-rw-rw-r-- 1 cs1st cs1st   267 Sep 27 17:43 header.h
+-rwxrwxr-x 1 cs1st cs1st 13808 Sep 27 17:45 [0m[01;32mhw05[0m
+-rw-rw-r-- 1 cs1st cs1st   254 Sep 27 17:41 hw05.cpp
+-rw-rw-r-- 1 cs1st cs1st     0 Sep 27 17:45 hw05.scr
+-rw-rw-r-- 1 cs1st cs1st   322 Sep 27 17:39 Makefile
+-rw-rw-r-- 1 cs1st cs1st   389 Sep 27 17:42 prshape.cpp
+-rw-rw-r-- 1 cs1st cs1st  3368 Sep 27 17:45 prshape.o
+-rw-rw-r-- 1 cs1st cs1st   286 Sep 27 17:44 trshape.cpp
+-rw-rw-r-- 1 cs1st cs1st  2416 Sep 27 17:45 trshape.o
+]0;cs1st@cs1buntu: ~/hw05[01;32mcs1st@cs1buntu[00m:[01;34m~/hw05[00m$ ./hw05 
+Enter the lengths of the three sides of a triangle:
+1 2 3
+Scalene.
+]0;cs1st@cs1buntu: ~/hw05[01;32mcs1st@cs1buntu[00m:[01;34m~/hw05[00m$ ./hw05 
+Enter the lengths of the three sides of a triangle:
+2 2 3
+Isosceles.
+]0;cs1st@cs1buntu: ~/hw05[01;32mcs1st@cs1buntu[00m:[01;34m~/hw05[00m$ ./hw05 
+Enter the lengths of the three sides of a triangle:
+22  2 2
+Equilateral.
+]0;cs1st@cs1buntu: ~/hw05[01;32mcs1st@cs1buntu[00m:[01;34m~/hw05[00m$ ./hw05 
+Enter the lengths of the three sides of a triangle:
+2 2 1000000
+Not a triangle.
+]0;cs1st@cs1buntu: ~/hw05[01;32mcs1st@cs1buntu[00m:[01;34m~/hw05[00m$ exit
+exit
+
+Script done on Tue 27 Sep 2016 05:46:38 PM PDT
