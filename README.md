@@ -3,7 +3,7 @@ Assignments demonstrate knowledge of the following subjects in C++:
 - Arithmetic
 - Standard input and output
 - Matrices
-- Input streams
+- File input streams
 - Dynamic, automatic, and static memory allocation and management
 - GCC, Makefiles and make
 - Linked list ADTs
