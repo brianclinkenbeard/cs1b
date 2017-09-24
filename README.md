@@ -5,6 +5,7 @@ Assignments demonstrate knowledge of the following subjects in C++:
 - Matrices
 - Input streams
 - Dynamic, automatic, and static memory allocation and management
+- GCC, Makefiles and make
 - Linked list ADTs
 - Operator overloading
 - Object-orientation and related concepts (encapsulation, polymorphism, inheritance)
