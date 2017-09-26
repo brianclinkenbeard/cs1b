@@ -5,6 +5,7 @@ Assignments demonstrate knowledge of the following subjects in C++:
 - Matrices
 - File input streams
 - Dynamic, automatic, and static memory allocation and management
+- Debugging tools such as valgrind and gdb
 - GCC, Makefiles and make
 - Linked list ADTs
 - Operator overloading
