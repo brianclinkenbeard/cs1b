@@ -12,4 +12,4 @@ Assignments demonstrate knowledge of the following subjects in C++:
 - Object-orientation and related concepts (encapsulation, polymorphism, inheritance)
 - Vectors / Standard Template Library
 
-Note that each assignment had various requirements and instructions that unfortunately are no longer available to me, as a result many assignments may appear to be implemented in an otherwise strange way (i.e. repeated statements as opposed to loops/arrays, methods separated to individual files, etc).
+Note that each assignment had various requirements and instructions that unfortunately are no longer available, as a result many assignments may appear to be implemented in an otherwise strange way (i.e. repeated statements as opposed to loops/arrays, methods separated to individual files, etc).
