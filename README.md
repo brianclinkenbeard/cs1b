@@ -1,15 +1,2 @@
-# Assignments from CS1B - Intro to Comp Sci II
-Assignments demonstrate knowledge of the following subjects in C++:
-- Arithmetic
-- Standard input and output
-- Matrices
-- File input streams
-- Dynamic, automatic, and static memory allocation and management
-- Debugging tools such as valgrind and gdb
-- GCC, Makefiles and make
-- Linked list ADTs
-- Operator overloading
-- Object-orientation and related concepts (encapsulation, polymorphism, inheritance)
-- Vectors / Standard Template Library
-
-Note that each assignment had various requirements and instructions that unfortunately are no longer available, as a result many assignments may appear to be implemented in an otherwise strange way (i.e. repeated statements as opposed to loops/arrays, methods separated to individual files, etc).
+# Assignments from CS1B - Introduction to Computer Science II
+*The second course in the Introduction to Computer Science series. Covers programming concepts including the properties of modularity and applies a contemporary high level programming language, currently C++, to the solutions of a wide variety of problems relating to science and business. Emphasis is on development, debugging, and testing of programs that use a wide variety of simple and composite data types. Includes functional and object-oriented programming.*
